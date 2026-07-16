@@ -134,6 +134,7 @@
         cur.wind_speed_10m = wx.current_weather.windspeed;
         cur.wind_direction_10m = wx.current_weather.winddirection;
         cur.time = wx.current_weather.time;
+        cur.is_day = wx.current_weather.is_day ?? 1;
       }
       wx.current = cur;
     }
