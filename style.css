@@ -1,4 +1,4 @@
- *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   :root{
     --glass: rgba(255,255,255,0.12);
     --glass-strong: rgba(255,255,255,0.2);
@@ -32,6 +32,9 @@
     background:radial-gradient(circle at 30% 30%,#fff6c9,#ffcf5a 45%,rgba(255,180,0,0));
     filter:blur(2px);opacity:0;transition:opacity 1s}
   body.theme-clear-day .sun{opacity:.9}
+  body.theme-clear-day .moon{opacity:0}
+  body.theme-clear-day .stars{opacity:0}
+  
   .moon{position:absolute;top:60px;right:80px;width:120px;height:120px;border-radius:50%;
     background:radial-gradient(circle at 35% 35%,#fdfbe7,#c8cde0 60%,#8a92b5);
     box-shadow:0 0 60px rgba(200,210,255,.45);opacity:0;transition:opacity 1s}
